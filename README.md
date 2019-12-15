@@ -1,2 +1,3 @@
 # JS_Practice
-practice js beginner
+js level:beginner
+practice grounds
