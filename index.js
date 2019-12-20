@@ -1,5 +1,4 @@
-var a='arbiter';
-document.write(a);
-var b=document.getElementById('one');
-b.textContent='lol lol lol';
+var out=(function(){
+    document.write("This is an IIFE");
+}());
 console.log('helloooooooo');
