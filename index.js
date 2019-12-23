@@ -1,6 +1,7 @@
-var func=function(count){
-    document.write("This is an Anonymous function :"+count);
-};
-for(var i=1;i<5;i++){
-    func(i);
+function timeTest(){
+    for(var i=1;i<10;i++)
+       document.write(i+'\n');   
 }
+console.time();
+timeTest();
+console.timeEnd();
