@@ -2,7 +2,16 @@ h1{
     color:green;
     background:pink
 }
+.clicked{
+    color:yellow;
+    background:red;
+}
 .blue{
     color:blue;
     background:teal;
+}
+#click{
+    color:blueviolet;
+    font-size: 16px;
+    font-family: sans-serif;
 }
