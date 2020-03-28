@@ -1,25 +1,53 @@
 h1{
-    color:rgba(40, 171, 211, 0.5);
+    color: rgb(176, 98, 217);
     font-size: 4em;
-    border-bottom:3px dashed greenyellow;
-    width: 550px;
+    text-decoration: underline orange;
+    width: 380px;
     padding:4px;
-    margin:0 auto 0 auto;
+    margin: 0  0 auto;
+    font-family: fantasy;
+    text-shadow: -8px -1px 1px black;
+}
+p{
+    font-size:2em;
+    font-weight: 300;
+    font-family: cursive;
+    color: #000000;
+    margin: auto 0;
 }
 .clicked{
     color:yellow;
-    background:#0456FF;
+    text-decoration: line-through;
 }
-.blue{
-    color:blue;
-    background:teal;
+ul{
+    font-family: cursive;
+    font-size: 20px;
+    color: #4e1909f2;
+    box-shadow: -3px 1px 9px 5px black;
+    margin: auto 0 30px 0;
+    width: 100px;
+    border-radius: 12px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Brown_paper_bag_texture.jpg/220px-Brown_paper_bag_texture.jpg);
+}
+body{
+    color:rgb(24, 231, 214);
+    background: rgba(165, 213, 84, 0.38);
+}
+button{
+    border-radius: 8px;
+    color: #ec0bdd;
+    background-color: #13cce39e;
+    block-size: 30px;
+    border: 0px;
+    margin-left: 20px;
+    font-family: cursive;
+    font-size: 20px;
+    box-shadow: -4px 1px 6px black;
 }
 .hover{
     color:orange;
 }
-/*#click{
-    color:blueviolet;
-    font-size: 16px;
-    font-family: sans-serif;
-    font-size: 3em;
-}*/
+input{
+    border-radius:50%;
+    background-color: orange;
+}
